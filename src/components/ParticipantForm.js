@@ -2,7 +2,7 @@ import React from "react";
 import { BASE_URL } from "../config/config";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-
+//Here ist solution FOR This assignment
 function ParticipantForm({ getData }) {
   ////the initial formState
   const addParticipant = async (addNames) => {
